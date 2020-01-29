@@ -10,15 +10,18 @@ namespace whiteboard
     {
         static void Main(string[] args)
         {
-            //Problem #1
+            //Problem #1 
             //int[] givenarray = { 5, 17, 77, 50 };
             //int target = 55;
             //Sum2DigitsInArray test1 = new Sum2DigitsInArray();
             //test1.FindIndices(givenarray, target);
 
-            //Problem #2
+            //Problem #2 Palindrome
 
-           
+            //Problem #3 Reverse Reciprocal
+            ReversedReciprocal test = new ReversedReciprocal();
+            
+
             Console.ReadLine();
 
         }

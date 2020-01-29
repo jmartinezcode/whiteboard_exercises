@@ -26,9 +26,9 @@ namespace whiteboard
 
         public void FindIndices(int[] array, int target)
         {
-            bool foundTarget = false;
-            if (foundTarget == false)
-            {
+            //bool foundTarget = false;
+            //if (foundTarget == false)
+            //{
                 for (int i = 0; i < array.Length; i++)
                 {
                     for (int j = 1; j < array.Length; j++)
@@ -37,13 +37,13 @@ namespace whiteboard
                         {
                             Console.WriteLine("Found solution, {0} and {1} equal {2}", array[i], array[j], target);
                             Console.WriteLine("The indices were {0} and {1}", i, j);
-                            foundTarget = true;
+                            //foundTarget = true; // This is unneeded when setting condition
                             i = j = array.Length; // To stop the nested loop, possibly use goto
                             break;
                         }
                     }                    
                 }
-            }
+            //}
         }
     }
 }
