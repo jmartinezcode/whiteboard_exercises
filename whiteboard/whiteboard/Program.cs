@@ -23,9 +23,10 @@ namespace whiteboard
 
             //Problem #4 Briefcase Lock
             //BriefcaseLock test = new BriefcaseLock();        
-            
+
             //Problem #5
-            
+            SequenceTester test = new SequenceTester();
+                     
             Console.ReadLine();
 
         }
