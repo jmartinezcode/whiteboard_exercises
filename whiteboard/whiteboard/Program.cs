@@ -19,9 +19,13 @@ namespace whiteboard
             //Problem #2 Palindrome
 
             //Problem #3 Reverse Reciprocal
-            ReversedReciprocal test = new ReversedReciprocal();
-            
+            //ReversedReciprocal test = new ReversedReciprocal();
 
+            //Problem #4 Briefcase Lock
+            //BriefcaseLock test = new BriefcaseLock();        
+            
+            //Problem #5
+            
             Console.ReadLine();
 
         }
