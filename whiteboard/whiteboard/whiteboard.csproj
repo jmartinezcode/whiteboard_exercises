@@ -50,6 +50,7 @@
     <Compile Include="ReversedReciprocal.cs" />
     <Compile Include="SequenceTester.cs" />
     <Compile Include="Sum2DigitsInArray.cs" />
+    <Compile Include="CountPositiveNegative.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

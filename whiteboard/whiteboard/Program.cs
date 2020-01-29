@@ -25,7 +25,10 @@ namespace whiteboard
             //BriefcaseLock test = new BriefcaseLock();        
 
             //Problem #5
-            SequenceTester test = new SequenceTester();
+            //SequenceTester test = new SequenceTester();
+
+            //Problem #6
+            CountPositiveNegative test = new CountPositiveNegative();
                      
             Console.ReadLine();
 
